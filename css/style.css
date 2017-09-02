@@ -69,7 +69,7 @@ display: inline-block;
 	color:cyan;
 	padding:0px 10px 0px 10px;
 	position:relative;
-	left:500px;
+	left:400px;
 	top:20px;
 	font-size:25px;
 }
@@ -80,17 +80,17 @@ display: inline-block;
 	color:white;
 	padding:0px 10px 0px 10px;
 	position:relative;
-	left:500px;
+	left:400px;
 	top:20px;
 	font-size:25px;
 }
 
 .foot-icons span{
-display: inline-block;
+	display: inline-block;
 	color:white;
 	padding:0px 10px 0px 10px;
 	position:relative;
-	left:260px;
+	left:150px;
 	top:50px;
 	font-size:13px;
 	font-family:arial;
@@ -103,7 +103,7 @@ display: inline-block;
 	color:white;
 	padding:0px 10px 0px 10px;
 	position:relative;
-	left:500px;
+	left:450px;
 	bottom:-600px;
 	font-size:13px;
 	font-family:arial;
