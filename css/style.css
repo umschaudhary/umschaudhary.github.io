@@ -16,12 +16,11 @@ body{
 	position:absolute;
 	width: 200px;
 	left: 200px;
-	
 	top:200px;
 }
 
 #developer,#designer,#dreamer,#learner{
-	color:rgb(168, 0, 2);
+	color:rgb();(168, 0, 2);
 }
 
 .header1{
@@ -223,7 +222,49 @@ display: inline-block;
 }
 
 }
+@media only screen and (min-width: 720px) {
 
 
+#dp{
+	position:absolute;
+	width: 200px;
+	left: 200px;
+	top:200px;
+	animation:dpanimate 4s infinite ;
+}
 
+
+#developer,#dreamer,#learner{
+	animation: animate 4s infinite;
+	animation-direction: reverse;
+    
+}
+#designer{
+	animation: animate 4s infinite;
+	animation-direction: alternate-reverse;
+    
+}
+#learner{
+	animation: animate 4s infinite;
+	animation-direction: alternate-reverse;
+    
+}
+}
+
+@keyframes animate {
+    from {color: red;
+    	}
+    to {color: cyan;}
+}
+
+@keyframes dpanimate{
+	  0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-7px);
+
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
 
