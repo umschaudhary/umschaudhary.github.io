@@ -1,0 +1,207 @@
+body{
+
+}
+#banner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.resume{
+	background-color: white;
+	height: 45rem;
+}
+.image { 
+	position: relative;
+	
+   
+   width: 100%; /* for IE 6 */
+}
+.image .text > a>button{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 200px;
+   height: 50px;
+   top:400px;
+   left: 600px;
+   border-color:white;
+   color:cyan;
+   background-color: transparent;
+
+
+}
+.image .text > a>button:hover{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 200px;
+   height: 50px;
+   top:400px;
+   left: 600px;
+   border-color:white;
+   color:red;
+   background-color:cyan;
+
+
+}
+.image .text > h2{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 480px;
+   height: 50px;
+   top:260px;
+   left: 500px;
+   border-color:white;
+   color:White;
+   font-size:25px;
+   font:serif;
+
+
+}
+.image .text > h1{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 800px;
+   height: 100px;
+   top:320px;
+   left: 400px;
+   border-color:white;
+   color:White;
+  
+   font-size:30px;
+   font:verdana;
+
+
+}
+
+/* HTML bar  */
+.myProgress {
+  width:30%;
+  background-color: #222;
+}
+
+.myBar {
+  width: 20%;
+  height: 20px;
+  background-color: #4CAF50;
+}
+
+#Technology-header,#Educations-header{
+	position: relative;
+	left: 100px;
+	font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 500px){
+	.image{
+		position: relative;
+		top:40px;
+	}
+	#Technology-header{
+	position: relative;
+	left:-15px;
+	top:10px;
+	font-size: 20px;
+}
+#Educations-header{
+	position: relative;
+	left: 00px;
+	font-size: 20px;
+}
+#Technologies,#Designs >li {
+
+font-size:10px;
+}
+.image .text > a>button{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 110px;
+   height: 30px;
+   top:120px;
+   left: 130px;
+   border-color:white;
+   color:cyan;
+   background-color: transparent;
+   font-size:10px;
+
+
+}
+.image .text > a>button:hover{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 110px;
+   height: 30px;
+   top:120px;
+   left: 130px;
+   border-color:white;
+   color:red;
+   background-color:cyan;
+   font-size:10px;
+
+
+}
+.image .text > h2{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 190px;
+   height: 20px;
+   top:60px;
+   left: 100px;
+   border-color:white;
+   color:White;
+   font-size:10px;
+   font:serif;
+ 
+
+}
+.image .text > h1{
+
+   position: absolute;
+   top: 200px;
+   left: 500;
+   width: 100%;
+   margin: 0 auto;
+   width: 200px;
+   height: 25px;
+   top:80px;
+   left: 105px;
+   border-color:white;
+   color:White;
+  
+   font-size:12px;
+   font:verdana;
+
+
+
+}
+
+
+}
