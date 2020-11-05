@@ -1,0 +1,27 @@
+.theme-bg{
+	background:#0A192F;
+}
+.navbar-dark{
+	color:white;
+}
+.square{
+	height:40px;
+	width:40px;
+	border: 1px solid whitesmoke;
+}
+
+.color-cyan{
+	color:cyan;
+}
+
+.large-heading {
+    font-size: clamp(35px, 8vw, 70px);
+}
+
+.btn-outline-send-mail{
+    color: cyan;
+    border-color: cyan;
+}
+.btn-outline-send-mail:hover{
+    color: whitesmoke;
+}
