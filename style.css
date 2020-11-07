@@ -26,57 +26,14 @@
     color: whitesmoke;
 }
 
-.rectangle{
-		border:3px solid cyan;
-		height:300px;
-		width:300px;
-		position:relative;
-		left:20px;
-		top:-280px;
-		z-index:-1;
-		border-radius:5px;
-}
-.overlay{
-		background:cyan;
-		opacity:0.3;
-		height:300px;
-		width:300px;
-		position:relative;
-		left:0px;
-		top:-600px;
-		border-radius:5px;
-}
-.overlay:hover{
-	opacity:0;
-}
 
 @media only screen and (max-width: 600px) {
 	.pro-image{
+		margin-top:20px;
 		width:350px;
 		position:relative;
 		left:10px;
 	}
-.rectangle{
-		border:none;
-		height:300px;
-		width:300px;
-		position:relative;
-		left:60px;
-		top:-280px;
-		z-index:-1;
-		border-radius:5px;
-}
-.overlay{
-		background:cyan;
-		opacity:0;
-		height:300px;
-		width:300px;
-		position:relative;
-		left:0px;
-		top:-600px;
-		border-radius:5px;
-}
-
 }
 
 td{
