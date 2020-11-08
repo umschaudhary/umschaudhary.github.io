@@ -36,6 +36,39 @@
 	}
 }
 
-td{
+.skill-table td{
 	width:25%;
+}
+
+a{
+	color:cyan;
+}
+a:hover{
+	color:white;
+}
+div.nav-pills>.nav-link{
+    border:1px solid gray !important;
+		border-top:none !important;
+		border-right:none !important;
+		border-bottom:none !important;
+		background:none !important;
+		border-radius:0 !important;
+
+}
+div.nav-pills > .active{
+    color: cyan !important;
+    border:1px solid cyan !important;
+		border-top:none !important;
+		border-right:none !important;
+		border-bottom:none !important;
+		background:none !important;
+		border-radius:0 !important;
+}
+.tab-content>.tab-pane.active {
+    color: white !important;
+    border: none !important;
+    background: none !important;
+}
+.responsibilites ul {
+	padding-left:1rem;
 }
