@@ -65,11 +65,14 @@ div.nav-pills > .active{
 	padding-left:1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.pro-image{
 		margin-top:20px;
 		width:350px;
 		position:relative;
 		left:10px;
+	}
+	.about-me-description{
+		font-size:12px !important;
 	}
 }
