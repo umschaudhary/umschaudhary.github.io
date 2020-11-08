@@ -27,14 +27,6 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-	.pro-image{
-		margin-top:20px;
-		width:350px;
-		position:relative;
-		left:10px;
-	}
-}
 
 .skill-table td{
 	width:25%;
@@ -71,4 +63,13 @@ div.nav-pills > .active{
 }
 .responsibilites ul {
 	padding-left:1rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.pro-image{
+		margin-top:20px;
+		width:350px;
+		position:relative;
+		left:10px;
+	}
 }
